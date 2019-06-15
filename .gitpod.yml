@@ -2,4 +2,4 @@ image:
   file: .gitpod.dockerfile
 
 tasks:
-  - command: alias arm-gcc=arm-linux-gnueabi-gcc
+  - command: ./startup.sh
