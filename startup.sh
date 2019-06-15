@@ -3,7 +3,7 @@ tar -xf a.tar.gz
 mkdir toolchain
 mv gplrelease/build_* toolchain/b.tar.gz
 cd toolchain
-tar -xf b.tar.gz
+tar -xvf b.tar.gz
 rm b.tar.gz
 cd ..
 rm -rf gplrelease

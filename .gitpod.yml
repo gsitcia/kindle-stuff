@@ -2,4 +2,5 @@ image:
   file: .gitpod.dockerfile
 
 tasks:
-  - command: ./startup.sh
+  - init: ./startup.sh
+    command: function gits() { git add . && git commit -m $1 && git push; }
