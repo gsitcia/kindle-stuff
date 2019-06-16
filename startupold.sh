@@ -6,5 +6,4 @@ cd toolchain
 tar -xvf b.tar.gz
 rm b.tar.gz
 cd ..
-rm -rf gplrelease
 rm a.tar.gz
