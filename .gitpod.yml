@@ -3,4 +3,3 @@ image:
 
 tasks:
   - init: ./startup.sh
-    command: function gits() { git add . && git commit -m $1 && git push; }
