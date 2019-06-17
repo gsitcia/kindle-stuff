@@ -1,0 +1,148 @@
+
+########## wireless info START ##########
+
+Report from: 17 Jun 2019 03:57 UTC +0000
+
+Booted last: 17 Jun 2019 00:00 UTC +0000
+
+Script from: 22 Oct 2018 03:34 UTC +0000
+
+##### release ###########################
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.10
+Release:	18.10
+Codename:	cosmic
+
+##### kernel ############################
+
+Linux 4.15.0-1028-gcp #29-Ubuntu SMP Thu Feb 7 18:20:08 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+Parameters: ro, scsi_mod.use_blk_mq=Y, console=ttyS0, net.ifnames=0
+
+##### desktop ###########################
+
+sed: can't read /home/gitpod/.dmrc: No such file or directory
+
+Could not be determined.
+
+##### lspci #############################
+
+./lol.sh: line 179: lspci: command not found
+
+##### lsusb #############################
+
+./lol.sh: line 182: lsusb: command not found
+
+##### PCMCIA card info ##################
+
+'pccardctl' is not installed (package "pcmciautils").
+
+##### rfkill ############################
+
+./lol.sh: line 192: rfkill: command not found
+
+##### secure boot #######################
+
+'mokutil' is not installed (package "mokutil").
+
+##### lsmod #############################
+
+./lol.sh: line 202: lsmod: command not found
+
+##### interfaces ########################
+
+##### ifconfig ##########################
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback <MAC address> brd <MAC address>
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+3: eth0@if2619: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1460 qdisc noqueue state UP group default 
+    link/ether <MAC 'eth0@if2619' [IF1]> brd <MAC address> link-netnsid 0
+    inet 10.12.2.127/32 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::<IP6 'eth0@if2619' [IF1]>/64 scope link 
+       valid_lft forever preferred_lft forever
+
+##### iwconfig ##########################
+
+./lol.sh: line 230: iwconfig: command not found
+
+##### route #############################
+
+default via 169.254.1.1 dev eth0 
+169.254.1.1 dev eth0 scope link 
+
+##### resolv.conf #######################
+
+[644 root '/etc/resolv.conf']
+nameserver 1.1.1.1
+nameserver 8.8.8.8
+
+##### network managers ##################
+
+Installed:
+
+	None found.
+
+Running:
+
+	None found.
+
+##### NetworkManager info ###############
+
+NetworkManager is not installed (package "network-manager").
+
+##### NetworkManager.state ##############
+
+cat: /var/lib/NetworkManager/NetworkManager.state: No such file or directory
+
+##### NetworkManager config #############
+
+##### NetworkManager profiles ###########
+
+No NetworkManager profiles found.
+
+##### Netplan config ####################
+
+##### iw reg get ########################
+
+'iw' is not installed (package "iw").
+
+##### iwlist channels ###################
+
+'iwlist' is not installed (package "wireless-tools").
+
+##### iwlist scan #######################
+
+'iwlist' is not installed (package "wireless-tools").
+
+##### module infos ######################
+
+##### module parameters #################
+
+##### /etc/modules ######################
+
+grep: /etc/modules: No such file or directory
+
+##### modprobe options ##################
+
+##### rc.local ##########################
+
+grep: /etc/rc.local: No such file or directory
+
+##### pm-utils ##########################
+
+##### udev rules ########################
+
+find: ‘/etc/udev/rules.d’: No such file or directory
+
+##### dmesg #############################
+
+dmesg: read kernel buffer failed: Operation not permitted
+
+########## wireless info END ############
+
