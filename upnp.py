@@ -65,7 +65,7 @@ import requests
 # use the object returned by urlparse.urlparse to get the hostname and port
 print(pure_xml)
 
-path = http://192.168.1.1:2555/upnp/445269bc-ed9f-39d6-a86b-a975069c1d8d/WANIPConn1.ctl
+path = "http://192.168.1.1:2555/upnp/445269bc-ed9f-39d6-a86b-a975069c1d8d/WANIPConn1.ctl"
 
 resp = requests.post(path,data=pure_xml,
     headers={'SOAPAction': '"urn:schemas-upnp-org:service:WANIPConnection:1#AddPortMapping"',
